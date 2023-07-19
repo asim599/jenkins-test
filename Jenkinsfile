@@ -5,7 +5,7 @@ pipeline {
         stage('SSH Login') {
             steps {
                 script {
-                    def remoteServer = '192.168.1.76'
+                    def remoteServer = '103.83.89.237:8010'
                     def remoteUser = 'root'
                     def remotePassword = '1'
                     
